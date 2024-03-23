@@ -1,0 +1,93 @@
+.container {
+    width: 100%;
+    justify-content: center;
+}
+
+.box-container {
+    width: 250px;
+    height: 190px;
+    padding: 10px 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 80px;
+    background-color: white;
+    color: black;
+    border: 5px gray solid;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    border-style: hidden;
+    position: relative;
+    bottom: 250px;
+  font-weight: 2%;
+    font: xx-large;
+    font-size: 17px;
+    line-height: 15px;
+
+}
+.text-color {
+    color: rgba(159, 2, 159, 0.938);
+}
+
+body {
+    background-color: rgb(225, 224, 224);
+}
+
+.box-in {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+
+table {
+    border-collapse: separate;
+    border-color: rgb(192, 192, 192);
+    width: 10px;
+    padding: 0px 2px;
+    font-size: small;
+}
+
+
+#columns {
+    margin: 2px;
+    width: 5px;
+    font-size: smaller;
+    font: normal;
+}
+
+#column{
+    margin: 3px;
+    text-align: start;
+    border: 1px rgb(128, 128, 128) solid;
+    padding: 3px;
+    width: 3px;
+}
+
+.image-container{
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 200px;
+    height: 500px;
+
+}
+
+.myimage{
+    position: absolute;
+    width: 33px;
+    height: 40px;
+    top: 0px;
+    right: 5px;
+    bottom: 50px;
+    left: 200px;
+}

@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(42, 39, 39);
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.side-box{
+    color: white;
+    justify-content: left;
+
+}
+
+.h1-tag{
+    font-weight: 20;
+}
+
+.second-tag{
+    font-size: xx-large;
+    font-weight: 500;
+
+}
+
+.third-tag{
+    font: italic;
+    font-size: smaller;
+}
+
+.right-container{
+    height: 250px;
+    width: 400px;
+    justify-items: end;
+}
+
+.myclass{
+background-color: black;
+color: white;
+width: 200px;
+padding: 10px 10px;
+display: block;
+border: 2px;
+border-radius: 5px;
+}
+
+.inner-container{
+    
+}
